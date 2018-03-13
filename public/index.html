@@ -1,10 +1,12 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Socket.IO whiteboard</title>
+  <title>Collaborative Drawing</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <section class="login-page">
     <div class="form">
@@ -12,13 +14,11 @@
       <input id="name" class="usernameInput" type="text" maxlength="14" />
     </div>
   </section>
-
-
   <section class="container drawing-space" style="margin-top:2rem">
     <div class="row">
       <div class="col-md-8">
         <div class="well">
-          <canvas class="whiteboard" ></canvas>
+          <canvas class="whiteboard"></canvas>
         </div>
       </div>
       <div class="col-offset-md-1 col-md-3">
@@ -28,29 +28,29 @@
           <div class="add-no">
           </div>
           <hr>
-         <div class="add-data">
-         </div>
+          <div class="add-data">
+          </div>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-8">
-      <div class="well">
-        <div class="color black"></div>
-        <div class="color red"></div>
-        <div class="color green"></div>
-        <div class="color blue"></div>
-        <div class="color yellow"></div>
-      </div>
+        <div class="well">
+          <div class="color black"></div>
+          <div class="color red"></div>
+          <div class="color green"></div>
+          <div class="color blue"></div>
+          <div class="color yellow"></div>
+        </div>
       </div>
     </div>
     </div>
   </section>
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
   <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="/chat.js"></script>
 </body>
+
 </html>
