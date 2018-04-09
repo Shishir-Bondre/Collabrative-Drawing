@@ -19,7 +19,7 @@
       2) npm run
 ### 2) Technology Stack
       Application is built on node js.
-      used web sockets concpets, socket.io
+      used web sockets concepts, socket.io
       used less and SASS, along with jquery for Front-end Development.
 
 ### 3) How to use it
